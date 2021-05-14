@@ -1,0 +1,102 @@
+body {
+  font-family: $font-regular;
+  font-synthesis: none;
+  -moz-font-feature-settings: "kern";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  max-width: 2048px;
+  margin: 0 auto !important;
+}
+.main-container {
+  padding: $padding0;
+  margin-top: 83px;
+}
+label {
+  margin-bottom: 0px;
+}
+// .app_card:hover {
+//   .action_box {
+//     display: flex !important;
+//   }
+// }
+.menuItem {
+  &.disabled {
+    background-color: #e5e5e5;
+  }
+  &:not(.disabled):hover {
+    background-color: #f4f7fa !important;
+  }
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+.app_card {
+  width: 24%;
+  margin-right: 4px !important;
+  margin-left: 4px !important;
+  // flex: 0.4;
+  margin-top: 20px;
+  min-width: 117px;
+}
+
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.fade-leave {
+  opacity: 1;
+}
+
+.fade-leave.fade-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+.log-level-popover {
+  z-index: 99999;
+}
+// .hr_line:after {
+//   content: ""
+// }
+.app_status_comment_wrapper {
+  padding-left: 16px;
+  position: relative;
+  &:before {
+    content: "";
+    background: #e5e5e5;
+    width: 2px;
+    position: absolute;
+    top: 14px;
+    bottom: 0;
+    left: -2px;
+  }
+  .app_status_comment {
+    position: relative;
+    &:before {
+      content: "●";
+      color: inherit;
+      position: absolute;
+      left: -24px;
+      top: -10px;
+      font-size: 24px
+    }
+  }
+}
+
+.menuItem > div > div > div {
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

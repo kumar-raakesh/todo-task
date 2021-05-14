@@ -1,0 +1,196 @@
+.inputBox {
+  // div {
+  //   z-index: 99;
+  // }
+  input {
+    border: 1px solid #CDCDCD !important;
+    border-radius: 3px;
+  }
+  input:focus {
+    border: 1px solid #29b6f6 !important;
+    border-radius: 3px;
+    // background-color: #ffffff !important;
+  }
+  // div:nth-child(2):focus {
+  textarea:focus {
+    border: 1px solid #29b6f6 !important;
+    border-radius: 3px;
+  }
+}
+
+.inputBoxError input {
+  border: 1px solid #e1464e !important;
+  border-radius: 3px;
+}
+
+.dialogPaper {
+  background-color: red;
+}
+
+// CustomTextField styling
+.base_input {
+  position: relative;
+  margin-right: 16px;
+  width: 100%;
+  input,
+  textarea {
+    display: block;
+    width: 100%;
+    border-radius: 3px;
+    // border: 0;
+    // background: #f2f2f2;
+    padding: 0 16px;
+    box-sizing: border-box;
+    font-size: 14px;
+    // border: 1px solid transparent;   // original
+    border: 1px solid #cdcdcd;
+    &::-webkit-input-placeholder {
+      color: rgba(0, 0, 0, 0.3);
+      text-transform: none;
+    }
+    &::-moz-placeholder {
+      color: rgba(0, 0, 0, 0.3);
+      text-transform: none;
+    }
+    &:-ms-input-placeholder {
+      color: rgba(0, 0, 0, 0.3);
+      text-transform: none;
+    }
+    &:-moz-placeholder {
+      color: rgba(0, 0, 0, 0.3);
+      text-transform: none;
+    }
+    &:focus {
+      outline: none;
+      border-color: #29b6f6;
+      background: #fff;
+    }
+  }
+  input {
+    height: 38px;
+  }
+  textarea {
+    padding: 16px;
+  }
+}
+.floating_label {
+  display: inline-block;
+  font-size: 12px;
+  font-family: OpenSansBold;
+  margin-bottom: 6px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.error_label {
+  font-size: 12px;
+  line-height: 12px;
+  color: rgb(220, 0, 42);
+  transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+  font-family: OpenSansBold;
+  display: inline-block;
+}
+.react-tagsinput {
+  background: #f8f8f8;
+  border: 1px solid #edf3f3;
+  padding: 5px 16px 0 16px;
+  &--focused {
+    border-color: #29b6f6;
+    background: #fff;
+  }
+  & > span {
+    display: flex;
+    flex-wrap: wrap;
+    input {
+      flex-grow: 2;
+    }
+  }
+  .react-tagsinput-tag {
+    border: 1px solid #f3f3f3;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 4px 4px 0 rgba(241, 241, 241, 0.5);
+    color: #191919;
+    padding: 7px 16px;
+    padding-right: 22px;
+    position: relative;
+    .react-tagsinput-remove {
+      position: absolute;
+      right: 8px;
+      top: 6px;
+    }
+  }
+  .react-tagsinput-input {
+    &::-webkit-input-placeholder {
+      color: rgba(0, 0, 0, 0.3);
+    }
+    &::-moz-placeholder {
+      color: rgba(0, 0, 0, 0.3);
+    }
+    &:-ms-input-placeholder {
+      color: rgba(0, 0, 0, 0.3);
+    }
+    &:-moz-placeholder {
+      color: rgba(0, 0, 0, 0.3);
+    }
+    font-family: $font-regular;
+    color: #191919;
+  }
+}
+
+.error_input {
+  .react-tagsinput {
+    border-color: rgb(220, 0, 42);
+  }
+  &.warning {
+    .react-tagsinput {
+      border-color: #f5a623;
+    }
+  }
+}
+
+.username {
+  text-transform: capitalize;
+}
+
+.userAvatar {
+  text-transform: uppercase;
+}
+
+.sqlSearchBox {
+  width: 100%;
+  padding: 9px 36px 9px 10px;
+  border: 1px solid lightgrey;
+  // outline: none;
+  border-radius: 3px;
+  color: #191919;
+  font-family: "OpenSansRegular";
+  font-size: 14px;
+  &::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.3);
+  }
+  &::-moz-placeholder {
+    color: rgba(0, 0, 0, 0.3);
+  }
+  &:-ms-input-placeholder {
+    color: rgba(0, 0, 0, 0.3);
+  }
+  &:-moz-placeholder {
+    color: rgba(0, 0, 0, 0.3);
+  }
+  &:focus {
+    outline: none;
+    border-color: #29b6f6;
+    background: #fff;
+  }
+}
+
+.errorCodeField {
+  &:focus {
+    .errorMenu {
+      display: block;
+    }
+  }
+}
+
+.errorMenu {
+  display: none;
+}

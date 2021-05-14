@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="242px" height="426px" viewBox="0 0 242 426" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Mask</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="255" height="472" rx="8"></rect>
+        <filter x="-8.6%" y="-4.2%" width="117.3%" height="109.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.253348214   0 0 0 0 0.253348214   0 0 0 0 0.253348214  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="242" height="426" rx="8"></rect>
+        <polygon id="path-5" points="1.705e-13 0 5.96781889 9.47785225 11.9356378 0"></polygon>
+        <polygon id="path-7" points="9.46817421 9.47785225 9.46817421 0 -1.137e-13 9.47785225"></polygon>
+        <path d="M4.4184813,0.772269443 L3.78726968,0.772269443 L3.78726968,0 L1.26242323,0 L1.26242323,0.772269443 L0.631211614,0.772269443 C0.252484646,0.772269443 -1.137e-13,1.08117722 -1.137e-13,1.54453889 L-1.137e-13,9.26723331 C-1.137e-13,9.73059498 0.252484646,10.0395028 0.631211614,10.0395028 L4.4184813,10.0395028 C4.79720827,10.0395028 5.04969291,9.73059498 5.04969291,9.26723331 L5.04969291,1.54453889 C5.04969291,1.08117722 4.79720827,0.772269443 4.4184813,0.772269443 L4.4184813,0.772269443 Z" id="path-9"></path>
+    </defs>
+    <g id="App-Developer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Simulator" transform="translate(-17.000000, -49.000000)">
+            <g id="SIMULATOR" transform="translate(10.000000, 9.000000)">
+                <g id="sim">
+                    <g id="Group-11">
+                        <g id="Rectangle-22">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#F8F8F8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group" transform="translate(7.000000, 40.000000)"></g>
+                <g id="Rectangle-3" transform="translate(7.000000, 40.000000)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <use id="Mask" fill="#565656" xlink:href="#path-3"></use>
+                    <rect fill="#191919" mask="url(#mask-4)" x="-7" y="391" width="255" height="35"></rect>
+                    <rect fill="#191919" mask="url(#mask-4)" x="-7" y="-16" width="255" height="35"></rect>
+                </g>
+                <g id="status-bar-contents" transform="translate(161.000000, 45.000000)"></g>
+                <g id="wifi" transform="translate(161.000000, 46.000000)">
+                    <mask id="mask-6" fill="white">
+                        <use xlink:href="#path-5"></use>
+                    </mask>
+                    <g id="wifi-mask"></g>
+                    <path d="M5.96781889,0 C1.04436831,0 -2.98390945,4.26503351 -2.98390945,9.47785225 C-2.98390945,14.690671 1.04436831,18.9557045 5.96781889,18.9557045 C10.8912695,18.9557045 14.9195472,14.690671 14.9195472,9.47785225 C14.9195472,4.26503351 10.8912695,0 5.96781889,0 L5.96781889,0 Z M5.96781889,16.5862414 C2.23793209,16.5862414 -0.745977362,13.4269574 -0.745977362,9.47785225 C-0.745977362,5.52874715 2.23793209,2.36946306 5.96781889,2.36946306 C9.6977057,2.36946306 12.6816152,5.52874715 12.6816152,9.47785225 C12.6816152,13.4269574 9.6977057,16.5862414 5.96781889,16.5862414 L5.96781889,16.5862414 Z" id="Shape" fill-opacity="0.3" fill="#FFFFFF" mask="url(#mask-6)"></path>
+                    <path d="M5.96781889,2.36946306 C2.23793209,2.36946306 -0.745977362,5.52874715 -0.745977362,9.47785225 C-0.745977362,13.4269574 2.23793209,16.5862414 5.96781889,16.5862414 C9.6977057,16.5862414 12.6816152,13.4269574 12.6816152,9.47785225 C12.6816152,5.52874715 9.6977057,2.36946306 5.96781889,2.36946306 L5.96781889,2.36946306 Z M5.96781889,14.2167784 C3.5060936,14.2167784 1.49195472,12.0842616 1.49195472,9.47785225 C1.49195472,6.87144288 3.5060936,4.73892613 5.96781889,4.73892613 C8.42954419,4.73892613 10.4436831,6.87144288 10.4436831,9.47785225 C10.4436831,12.0842616 8.42954419,14.2167784 5.96781889,14.2167784 L5.96781889,14.2167784 Z" id="Shape" fill-opacity="0.9" fill="#FFFFFF" mask="url(#mask-6)"></path>
+                    <path d="M5.96781889,4.73892613 C3.5060936,4.73892613 1.49195472,6.87144288 1.49195472,9.47785225 C1.49195472,12.0842616 3.5060936,14.2167784 5.96781889,14.2167784 C8.42954419,14.2167784 10.4436831,12.0842616 10.4436831,9.47785225 C10.4436831,6.87144288 8.42954419,4.73892613 5.96781889,4.73892613 L5.96781889,4.73892613 Z M5.96781889,11.8473153 C4.69965738,11.8473153 3.72988681,10.820548 3.72988681,9.47785225 C3.72988681,8.13515652 4.69965738,7.10838919 5.96781889,7.10838919 C7.23598041,7.10838919 8.20575098,8.13515652 8.20575098,9.47785225 C8.20575098,10.820548 7.23598041,11.8473153 5.96781889,11.8473153 L5.96781889,11.8473153 Z" id="Shape" fill-opacity="0.9" fill="#FFFFFF" mask="url(#mask-6)"></path>
+                    <ellipse id="Oval" fill-opacity="0.9" fill="#FFFFFF" mask="url(#mask-6)" cx="5.96781889" cy="9.47785225" rx="2.23793209" ry="2.36946306"></ellipse>
+                </g>
+                <g id="reception" transform="translate(180.000000, 46.000000)">
+                    <mask id="mask-8" fill="white">
+                        <use xlink:href="#path-7"></use>
+                    </mask>
+                    <g id="reception-mask"></g>
+                    <rect id="Rectangle-path" fill-opacity="0.3" fill="#FFFFFF" mask="url(#mask-8)" x="7.10113066" y="0" width="2.36704355" height="9.47785225"></rect>
+                    <rect id="Rectangle-path" fill-opacity="0.3" fill="#FFFFFF" mask="url(#mask-8)" x="4.7340871" y="0" width="2.36704355" height="9.47785225"></rect>
+                    <rect id="Rectangle-path" fill-opacity="0.9" fill="#FFFFFF" mask="url(#mask-8)" x="2.36704355" y="0" width="2.36704355" height="9.47785225"></rect>
+                    <rect id="Rectangle-path" fill-opacity="0.9" fill="#FFFFFF" mask="url(#mask-8)" x="0" y="0" width="2.36704355" height="9.47785225"></rect>
+                </g>
+                <g id="battery" transform="translate(201.000000, 45.000000)">
+                    <mask id="mask-10" fill="white">
+                        <use xlink:href="#path-9"></use>
+                    </mask>
+                    <g id="battery-mask"></g>
+                    <rect id="Rectangle-path" fill-opacity="0.9" fill="#FFFFFF" mask="url(#mask-10)" x="0" y="7.72269443" width="5.04969291" height="2.31680833"></rect>
+                    <rect id="Rectangle-path" fill-opacity="0.9" fill="#FFFFFF" mask="url(#mask-10)" x="0" y="5.4058861" width="5.04969291" height="2.31680833"></rect>
+                    <rect id="Rectangle-path" fill-opacity="0.3" fill="#FFFFFF" mask="url(#mask-10)" x="0" y="3.08907777" width="5.04969291" height="2.31680833"></rect>
+                    <rect id="Rectangle-path" fill-opacity="0.3" fill="#FFFFFF" mask="url(#mask-10)" x="0" y="0.772269443" width="5.04969291" height="2.31680833"></rect>
+                    <rect id="Rectangle-path" fill-opacity="0.3" fill="#FFFFFF" mask="url(#mask-10)" x="1.26242323" y="0" width="2.52484646" height="1"></rect>
+                </g>
+                <g id="time" opacity="0.9" transform="translate(213.000000, 46.000000)" font-size="12" font-family="Roboto-Regular, Roboto" fill="#FFFFFF" font-weight="normal">
+                    <text id="12:30">
+                        <tspan x="2.345e-13" y="9">12:30</tspan>
+                    </text>
+                </g>
+                <g id="navbar" transform="translate(0.505653, 431.304172)" stroke="#FFFFFF" stroke-width="2">
+                    <rect id="recent" x="194.375" y="12.3444149" width="9.33333333" height="9.34441485" rx="2"></rect>
+                    <ellipse id="home" cx="127.5" cy="17.0166223" rx="4.66666667" ry="4.67220743"></ellipse>
+                    <path d="M60.3916523,11.971517 L52.5229796,16.5248053 C52.2321203,16.6931141 52.232179,16.6324851 52.5229796,16.8007599 L60.3916526,21.3540485 C60.683639,21.5230094 60.625,21.5563831 60.625,21.2303537 L60.6249998,12.0952119 C60.6249998,11.7722227 60.6807408,11.804233 60.3916523,11.971517 Z" id="back"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

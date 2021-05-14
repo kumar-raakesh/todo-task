@@ -1,0 +1,209 @@
+// -----------------------------------------------
+// CSS for Table of IT-Admin AuditTable.js
+.admin-table {
+  width: 100%;
+  table-layout: fixed;
+}
+.tbl-header {
+  background-color: #efefef;
+  border-radius: 4px 4px 0 0;
+}
+.tbl-content {
+  // max-height: 400px;
+  border-left: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+}
+th {
+  // padding: 17px 10px;
+  padding: 17px 0px 17px 5px;
+  text-align: left;
+  color: #000000;
+  font-family: "OpenSansBold";
+  font-size: 13px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.admin-table-row {
+  position: relative;
+  &:hover {
+    .admin_actions {
+      display: flex;
+    }
+  }
+}
+
+.admin-table-description {
+  position: relative;
+}
+
+.admin-table-description .tooltipDescription {
+  visibility: hidden;
+  // width: 320px;
+  width: 100%;
+  background-color: #e8e8e8;
+  color: #000;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px 6px;
+  font-family: "OpenSansRegular";
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.admin-table-description:hover .tooltipDescription {
+  visibility: visible;
+}
+
+.admin-table-row td {
+  position: relative;
+  // padding: 0px 0px 0px 10px;
+  padding: 0px 0px 0px 5px;
+  text-align: left;
+  vertical-align: middle;
+  color: #191919;
+  font-family: "OpenSansRegular";
+  font-size: 13px;
+  background-color: #ffffff;
+  border-bottom: solid 1px #e5e5e5;
+  height: 52px;
+  // overflow: hidden;
+  .admin_actions {
+    display: none;
+    position: absolute;
+    // right: 0;
+    right: 20px;
+    height: 100%;
+    top: 0;
+    background: #fff;
+    box-shadow: -30px 0px 18px 0px #fffc;
+    align-items: center;
+  }
+}
+
+.tableHeaderIcon {
+  color: #000000;
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.admin-tbl-body tr:hover {
+  background-color: #f4f7fa;
+  td {
+    color: #191919;
+    font-family: "OpenSansBold";
+    font-size: 12px;
+    .admin-tbl-actions-data {
+      display: block;
+    }
+  }
+}
+.admin-tbl-actions-data {
+  display: none;
+  // display: block;
+}
+
+// .admin-tbl-actions-data-visible {
+//   display: block;
+// }
+
+.tbl-owner-td-unassigned {
+  color: #e51937 !important;
+  font-family: "OpenSansBold" !important;
+}
+/* for custom scrollbar for webkit browser*/
+
+// ::-webkit-scrollbar {
+//   width: 6px;
+// }
+// ::-webkit-scrollbar-track {
+//   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+// }
+// ::-webkit-scrollbar-thumb {
+//   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+// }
+
+// ----------------------------------------
+// CSS for AppMenu
+.nodeChildren {
+  padding-left: 3.1em;
+}
+.nodeItem {
+  padding: 0.3em;
+}
+
+.nodePositioningWrapper:last-child > .node {
+  border-bottom: none;
+}
+
+.nodeDragging {
+  color: #eeeeee;
+}
+
+// ----------------------------------------
+// CSS for Date Range Picker
+.daterangepicker .calendar-table th,
+.daterangepicker .calendar-table td {
+  padding: 0px;
+}
+
+.daterangepicker .drp-buttons .applyBtn {
+  background-color: #e51937;
+  color: #ffffff;
+  font-family: "OpenSansBold";
+  font-size: 13px;
+  border: 1px solid #e51937;
+}
+
+.daterangepicker .drp-buttons .btn {
+  padding: 6px 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.daterangepicker .drp-buttons .cancelBtn {
+  background-color: transparent;
+  border: none;
+}
+
+.daterangepicker td.in-range {
+  background-color: #e3f6ff;
+}
+
+.daterangepicker td.active,
+.daterangepicker td.active:hover {
+  background-color: #29b6f6;
+}
+
+.daterangepicker td.start-date {
+  border-radius: 8px 0px 0px 0px;
+}
+
+.daterangepicker select.monthselect {
+  width: 60%;
+  border: 1px solid #dcdcdc;
+  border-radius: 2px;
+}
+
+.daterangepicker select.yearselect {
+  border: 1px solid #dcdcdc;
+}
+
+.daterangepicker select.monthselect:focus {
+  outline-color: rgb(46, 122, 243); // #4D90FE
+  outline-offset: -2px;
+  outline-style: auto;
+  outline-width: 3px;
+}
+
+.daterangepicker select.yearselect:focus {
+  outline-color: rgb(46, 122, 243); // #4D90FE
+  outline-offset: -2px;
+  outline-style: auto;
+  outline-width: 3px;
+}

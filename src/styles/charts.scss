@@ -1,0 +1,174 @@
+.licenced line {
+  stroke: #29b6f6;
+  stroke-dasharray: 7, 9;
+  stroke-width: 2px;
+}
+.licenced text {
+  font-size: 11px;
+  fill: #000;
+  transform: translateY(-5px);
+}
+text {
+  font-family: "OpenSansRegular";
+  fill: #485465;
+}
+.peaks line {
+  stroke: #f8bc5a;
+  stroke-dasharray: 7, 9;
+  stroke-width: 2px;
+}
+.peaks text {
+  font-size: 11px;
+  fill: #000;
+  transform: translateY(-5px);
+}
+.spikes line {
+  stroke: #d93140;
+  stroke-dasharray: 7, 9;
+  stroke-width: 2px;
+}
+.spikes text {
+  font-size: 11px;
+  fill: #000;
+  transform: translateY(-5px);
+}
+.chart-sec {
+  -webkit-box-shadow: 0 2px 8px 0 rgba(201, 201, 201, 0.5);
+  box-shadow: 0 2px 8px 0 rgba(201, 201, 201, 0.5);
+  padding: 10px;
+  width: 94.5%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 16px;
+  display: flex;
+  position: relative;
+}
+#chart,
+#BarChar,
+#PieChart,
+#LineChart,
+#LineChart2,
+#AppBarChar,
+#TopPieChart,
+#HighPieChart,
+#RedPieChart,
+#ScatterChar {
+  width: 100%;
+  display: block;
+  // margin-top: 50px;
+  margin-top: 5px;
+}
+.simple line {
+  stroke-opacity: 0.4;
+}
+.c3-legend-item-tile {
+  stroke-width: 4px;
+  transform: translateY(1px);
+}
+.application .c3-legend-item-tile {
+  stroke-width: 10px;
+  transform: translateY(0px);
+}
+.c3-axis-y-label {
+  font-size: 12px;
+  transform: rotate(-90deg) translateY(-5px);
+}
+.c3-axis-x-label {
+  font-size: 12px;
+  // transform: translateY(-10px);
+  transform: translateY(0px);
+}
+.tick path,
+.tick line {
+  stroke: #fff;
+}
+.domain {
+  stroke-opacity: 0.3;
+  stroke: #c5c5c5 !important;
+}
+.head {
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.head label {
+  color: #464646;
+  font-size: 16px;
+  font-family: "OpenSansBold";
+}
+
+.chart-btn {
+  outline: 0 !important;
+  background-color: #ffffff;
+  border-radius: 0;
+  border: 1px solid #edf3f3;
+  padding: 8px 10px;
+  width: 76px;
+  color: #191919;
+  font-size: 11px;
+  cursor: pointer;
+  font-family: "OpenSansBold";
+}
+
+.chart-btn:focus {
+  background-color: #e51937;
+  border: 1px solid #e51937;
+  color: #fff;
+}
+
+.chart-btn-selected {
+  background-color: #e51937;
+  border: 1px solid #e51937;
+  color: #fff;
+
+  outline: 0 !important;
+  border-radius: 0;
+  padding: 8px 10px;
+  width: 76px;
+  font-size: 11px;
+  cursor: pointer;
+  font-family: "OpenSansBold";
+}
+
+.adminOverviewPie .c3-chart-arc path {
+  stroke: red;
+  box-shadow: 0 2px 8px 0 red;
+}
+
+.adminOverviewPie .c3-chart-arc text {
+  // fill: #191919 !important;
+  display: none;
+}
+
+.adminOverviewPie .c3-tooltip .name span {
+  // box-shadow:0 2px 8px 0 !important;
+  border: 1px solid !important;
+}
+
+.c3-grid line {
+  stroke: #c2c9d1;
+  stroke-dasharray: 0;
+  stroke-width: 0.6px;
+}
+
+.adminOverviewPie2 .c3-chart-arc text {
+  // fill: #191919 !important;
+  display: none;
+}
+
+#chart .c3-grid .c3-ygrid-line.peaks line {
+  stroke: red;
+  stroke-dasharray: 5;
+  stroke-width: 2px;
+}
+
+#chart .c3-grid .c3-ygrid-line.licenced line {
+  stroke: orange;
+  stroke-dasharray: 5;
+  stroke-width: 2px;
+}
+.adminOverviewPie2 .c3-tooltip .name span {
+  // box-shadow:0 2px 8px 0 !important;
+  border: 1px solid !important;
+}
