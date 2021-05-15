@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 
 class Home extends Component {
   componentDidMount = () => {
@@ -6,13 +7,8 @@ class Home extends Component {
   };
 
   render() {
-    console.log("aaa: ", this.props);
     return (
-      <div
-        onClick={() => {
-          this.props.history.push("/aboutUs");
-        }}
-      >
+      <div>
         This is Home
         <div
           style={{
@@ -36,3 +32,8 @@ class Home extends Component {
 }
 
 export default Home;
+
+Home.propTypes = {
+  actions: PropTypes.object,
+  apps: PropTypes.object,
+};

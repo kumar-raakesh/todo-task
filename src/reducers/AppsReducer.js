@@ -4,17 +4,21 @@
 const initialState = {
   msg: "test",
   test: "initial",
+  list: [],
 };
 
 export default function AppsReducer(state = initialState, action) {
   switch (action.type) {
     case "TEST":
-      console.log("reached")
       return {
         ...state,
-        msg: action.payload.msg
+        msg: action.payload.msg,
       };
-
+    case "ADD":
+      return {
+        ...state,
+        list: action.payload.value,
+      };
     default:
       return state;
   }
