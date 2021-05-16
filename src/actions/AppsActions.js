@@ -1,6 +1,3 @@
-// import axios from "../utils/xhrRequestHandler";
-// GET AppListing Action ..........
-
 export function testAction() {
   return (dispatch) => {
     dispatch({
@@ -37,7 +34,6 @@ export function addItem(value) {
 export function delItem(index) {
   let localArr = JSON.parse(localStorage.getItem("todos") || "[]");
   localArr.splice(index, 1);
-  // let upArr = localArr.filter((o) => o.id != id);
   localStorage.setItem("todos", JSON.stringify(localArr));
 
   return (dispatch) => {
